@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-content{
+    width: 90%;
+    background-color: rgb(193, 182, 245);
+    margin: 0 auto;
+}
+.container .sologan{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 15px 10px;
+    background-color: rgb(167, 112, 31);
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(235, 81, 81);
+    padding: 39px 8px;
+    background-color: rgb(255, 200, 117);
+}
+.navigation{
+    display: flex;
+}
+.navigation .column{
+    flex:1;
+    text-align: center;
+    padding: 15px;
+    background-color: aqua;
+}
+.about{
+    display: flex;
+}
+.about .right{
+    display: flex;
+    text-align: center;
+    flex: 1;
+}
+.about .left{
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+}
+.about .row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.copyright{
+    display: flex;
+    text-align: center;
+    background-color:aquamarine;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 35px;
+}
